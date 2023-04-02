@@ -25,8 +25,6 @@ public class App
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
 
-        // conf.setOutputKeyComparatorClass(DescendingIntComparator.class);
-
         // args[0] = name of the input directory
         // args[1] = output file (result of the sorted list)
 
